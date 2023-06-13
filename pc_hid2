@@ -2,23 +2,23 @@
 
 echo left-meta r | ./hid-gadget-test /dev/hidg2 keyboard
 sleep 0.3
-echo i e x p l o | ./hid-gadget-test /dev/hidg2 keyboard
-echo r e | ./hid-gadget-test /dev/hidg2 keyboard
+echo c m d | ./hid-gadget-test /dev/hidg2 keyboard
+echo enter  | ./hid-gadget-test /dev/hidg2 keyboard
+echo c o l o r | ./hid-gadget-test /dev/hidg2 keyboard
 echo space | ./hid-gadget-test /dev/hidg2 keyboard
-echo minus | ./hid-gadget-test /dev/hidg2 keyboard
-echo k | ./hid-gadget-test /dev/hidg2 keyboard
-echo space | ./hid-gadget-test /dev/hidg2 keyboard
+echo 0 a | ./hid-gadget-test /dev/hidg2 keyboard
+echo enter | ./hid-gadget-test /dev/hidg2 keyboard
 
-echo g i t h u b | ./hid-gadget-test /dev/hidg2 keyboard
-echo period | ./hid-gadget-test /dev/hidg2 keyboard
-echo c o m | ./hid-gadget-test /dev/hidg2 keyboard
-echo slash | ./hid-gadget-test /dev/hidg2 keyboard
-echo a n d r o i | ./hid-gadget-test /dev/hidg2 keyboard
-echo d m a l | ./hid-gadget-test /dev/hidg2 keyboard
-echo w a r e | ./hid-gadget-test /dev/hidg2 keyboard
-echo slash | ./hid-gadget-test /dev/hidg2 keyboard
-echo a n d r o | ./hid-gadget-test /dev/hidg2 keyboard
-echo i d | ./hid-gadget-test /dev/hidg2 keyboard
+echo d i r | ./hid-gadget-test /dev/hidg2 keyboard
+echo enter | ./hid-gadget-test /dev/hidg2 keyboard
+echo d i r | ./hid-gadget-test /dev/hidg2 keyboard
+echo enter | ./hid-gadget-test /dev/hidg2 keyboard
+echo d i r | ./hid-gadget-test /dev/hidg2 keyboard
+echo enter | ./hid-gadget-test /dev/hidg2 keyboard
+echo left-meta | ./hid-gadget-test /dev/hidg2 keyboard
+echo p o w e r | ./hid-gadget-test /dev/hidg2 keyboard
+echo s h e l l | ./hid-gadget-test /dev/hidg2 keyboard
+echo  | ./hid-gadget-test /dev/hidg2 keyboard
 echo left-shift minus | ./hid-gadget-test /dev/hidg2 keyboard
 echo h i d | ./hid-gadget-test /dev/hidg2 keyboard
 
