@@ -18,9 +18,7 @@ echo enter | ./hid-gadget-test /dev/hidg2 keyboard
 echo left-meta | ./hid-gadget-test /dev/hidg2 keyboard
 echo p o w e r | ./hid-gadget-test /dev/hidg2 keyboard
 echo s h e l l | ./hid-gadget-test /dev/hidg2 keyboard
-echo  | ./hid-gadget-test /dev/hidg2 keyboard
-echo left-shift minus | ./hid-gadget-test /dev/hidg2 keyboard
-echo h i d | ./hid-gadget-test /dev/hidg2 keyboard
-
-sleep 0.3
+echo right | ./hid-gadget-test /dev/hidg2 keyboard
+echo down | ./hid-gadget-test /dev/hidg2 keyboard
 echo enter | ./hid-gadget-test /dev/hidg2 keyboard
+echo  | ./hid-gadget-test /dev/hidg2 keyboard
