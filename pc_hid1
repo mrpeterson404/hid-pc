@@ -4,33 +4,41 @@ echo left-meta r | ./hid-gadget-test /dev/hidg1 keyboard
 sleep 0.3
 echo c m d | ./hid-gadget-test /dev/hidg1 keyboard
 echo enter  | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 1.0
 echo c o l o r | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 0.5
 echo space | ./hid-gadget-test /dev/hidg1 keyboard
 echo 0 a | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 0.5
 echo enter | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 0.5
 echo d i r \ s | ./hid-gadget-test /dev/hidg1 keyboard 
 echo enter | ./hid-gadget-test /dev/hidg1 keyboard
-sleep 3.5
-
+sleep 1.0
+echo i p c o n f | ./hid-gadget-test /dev/hidg1 keyboard
+echo i g | ./hid-gadget-test /dev/hidg1 keyboard
+echo enter | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 1.0
 echo left-meta | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 1.0
 echo p o w e r | ./hid-gadget-test /dev/hidg1 keyboard
 echo s h e l l | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 0.5
 echo right | ./hid-gadget-test /dev/hidg1 keyboard
 echo down | ./hid-gadget-test /dev/hidg1 keyboard
 echo enter | ./hid-gadget-test /dev/hidg1 keyboard
-echo G e t - C o | ./hid-gadget-test /dev/hidg1 keyboard
-echo m a n d | ./hid-gadget-test /dev/hidg1 keyboard
-sleep 0.8
+sleep 3.0
+echo left | ./hid-gadget-test /dev/hidg1 keyboard
+echo enter | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 1.5
+echo h e l p | ./hid-gadget-test /dev/hidg1 keyboard
+echo enter | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 0.5
 echo left-meta r | ./hid-gadget-test /dev/hidg1 keyboard
 sleep 0.3
-echo c m d | ./hid-gadget-test /dev/hidg1 keyboard
+echo h t t p | ./hid-gadget-test /dev/hidg1 keyboard
+echo down | ./hid-gadget-test /dev/hidg1 keyboard
+echo down | ./hid-gadget-test /dev/hidg1 keyboard
+echo down | ./hid-gadget-test /dev/hidg1 keyboard
 echo enter  | ./hid-gadget-test /dev/hidg1 keyboard
-echo s h u t | ./hid-gadget-test /dev/hidg1 keyboard
-echo d o w n | ./hid-gadget-test /dev/hidg1 keyboard
-echo space | ./hid-gadget-test /dev/hidg1 keyboard
-echo / s | ./hid-gadget-test /dev/hidg1 keyboard
-echo space | ./hid-gadget-test /dev/hidg1 keyboard
-echo / t | ./hid-gadget-test /dev/hidg1 keyboard
-echo space | ./hid-gadget-test /dev/hidg1 keyboard
-echo 0 | ./hid-gadget-test /dev/hidg2 keyboard
-echo enter | ./hid-gadget-test /dev/hidg1 keyboard
+
