@@ -1,3 +1,5 @@
+#!
+
 echo spacebar | ./hid-gadget-test /dev/hidg0 keyboard
 sleep 0.5 | ./hid-gadget-test /dev/hidg0 keyboard
 echo 1 4 7 9 | ./hid-gadget-test /dev/hidg0 keyboard
