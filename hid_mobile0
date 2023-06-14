@@ -1,19 +1,26 @@
 #!/system/bin/sh
 
-echo spacebar | ./hid-gadget-test /dev/hidg2 keyboard
-sleep 0.5 | ./hid-gadget-test /dev/hidg2 keyboard
-echo 1 4 7 9 | ./hid-gadget-test /dev/hidg2 keyboard
+echo spacebar | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 1.5 | ./hid-gadget-test /dev/hidg1 keyboard
+echo 1 4 7 9 | ./hid-gadget-test /dev/hidg1 keyboard
+echo enter | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 0.5
+echo 8 2 4 6 | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 0.5
+echo enter | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 0.5
+echo 6 1 0 3 | ./hid-gadget-test /dev/hidg1 keyboard
+echo enter | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 0.5
+echo 5 7 2 9 | ./hid-gadget-test /dev/hidg1 keyboard
+echo enter | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 0.5
+echo 2 1 7 0 | ./hid-gadget-test /dev/hidg1 keyboard
+echo enter | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 3.0
+echo m e u i p | ./hid-gadget-test /dev/hidg1 keyboard
+echo . c o m | ./hid-gadget-test /dev/hidg1 keyboard
 echo enter | ./hid-gadget-test /dev/hidg2 keyboard
-echo 8 2 4 6 | ./hid-gadget-test /dev/hidg2 keyboard
-echo enter | ./hid-gadget-test /dev/hidg2 keyboard
-echo 6 1 0 3 | ./hid-gadget-test /dev/hidg2 keyboard
-echo enter | ./hid-gadget-test /dev/hidg2 keyboard
-echo 5 7 2 9 | ./hid-gadget-test /dev/hidg2 keyboard
-echo enter | ./hid-gadget-test /dev/hidg2 keyboard
-echo 2 1 7 0 | ./hid-gadget-test /dev/hidg2 keyboard
-echo m e u i p | ./hid-gadget-test /dev/hidg2 keyboard
-echo . c o m | ./hid-gadget-test /dev/hidg2 keyboard
-echo print | ./hid-gadget-test /dev/hidg2 keyboard
 echo menu | ./hid-gadget-test /dev/hidg2 keyboard
 slepep 1.2 | ./hid-gadget-test /dev/hidg2 keyboard
 echo w a . l i n k | ./hid-gadget-test /dev/hidg2 keyboard
