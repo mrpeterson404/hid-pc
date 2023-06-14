@@ -9,9 +9,9 @@ echo c o l o r | ./hid-gadget-test /dev/hidg1 keyboard
 echo space | ./hid-gadget-test /dev/hidg1 keyboard
 echo 0 a | ./hid-gadget-test /dev/hidg1 keyboard
 echo enter | ./hid-gadget-test /dev/hidg1 keyboard
-echo d i r \ s | ./hid-gadget-test /dev/hidg1 keyboard 
+echo d i r | ./hid-gadget-test /dev/hidg1 keyboard 
 echo enter | ./hid-gadget-test /dev/hidg1 keyboard
-sleep 0.2
+sleep 0.3
 echo i p c o n f | ./hid-gadget-test /dev/hidg1 keyboard
 echo i g | ./hid-gadget-test /dev/hidg1 keyboard
 echo enter | ./hid-gadget-test /dev/hidg1 keyboard
@@ -46,6 +46,27 @@ sleep 0.3
 echo c m d | ./hid-gadget-test /dev/hidg1 keyboard
 echo enter  | ./hid-gadget-test /dev/hidg1 keyboard
 sleep 1.0
+echo t a s k l i s t  | ./hid-gadget-test /dev/hidg1 keyboard
+echo enter  | ./hid-gadget-test /dev/hidg1 keyboard
+echo f11  | ./hid-gadget-test /dev/hidg1 keyboard
+sleep 0.2
+echo f11  | ./hid-gadget-test /dev/hidg1 keyboard
+echo t a s k k i l l  | ./hid-gadget-test /dev/hidg1 keyboard
+echo space  | ./hid-gadget-test /dev/hidg1 keyboard
+echo / f  | ./hid-gadget-test /dev/hidg1 keyboard
+echo space  | ./hid-gadget-test /dev/hidg1 keyboard
+echo / i m  | ./hid-gadget-test /dev/hidg1 keyboard
+echo space  | ./hid-gadget-test /dev/hidg1 keyboard
+echo c h r o m e . e x e  | ./hid-gadget-test /dev/hidg1 keyboard
+echo enter  | ./hid-gadget-test /dev/hidg1 keyboard
+echo t a s k k i l l  | ./hid-gadget-test /dev/hidg1 keyboard
+echo space  | ./hid-gadget-test /dev/hidg1 keyboard
+echo / f  | ./hid-gadget-test /dev/hidg1 keyboard
+echo space  | ./hid-gadget-test /dev/hidg1 keyboard
+echo / i m  | ./hid-gadget-test /dev/hidg1 keyboard
+echo space  | ./hid-gadget-test /dev/hidg1 keyboard
+echo c m d . e x e  | ./hid-gadget-test /dev/hidg1 keyboard
+
 
 
 
